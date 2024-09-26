@@ -1,10 +1,10 @@
-package com.example.myapplication.data
+package com.example.verseinterview.data
 
-import com.example.myapplication.remote.source.RemoteDataSource
-import com.example.myapplication.base.reources.Resource
-import com.example.myapplication.domain.entities.ExchangeRates
+import com.example.verseinterview.domain.entities.ExchangeRates
+import com.example.verseinterview.base.reources.Resource
+import com.example.verseinterview.base.reources.ResourceState
 import com.example.verseinterview.local.source.LocalDataSource
-import com.example.verseinterview.data.Repository
+import com.example.verseinterview.remote.source.RemoteDataSource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

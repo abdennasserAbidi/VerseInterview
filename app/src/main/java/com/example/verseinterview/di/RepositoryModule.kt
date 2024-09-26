@@ -3,7 +3,7 @@ package com.example.verseinterview.di
 import com.example.verseinterview.remote.source.RemoteDataSource
 import com.example.verseinterview.remote.source.RemoteDataSourceImp
 import com.example.verseinterview.data.Repository
-import com.example.myapplication.data.RepositoryImp
+import com.example.verseinterview.data.RepositoryImp
 import com.example.verseinterview.local.source.LocalDataSource
 import com.example.verseinterview.local.source.LocalDataSourceImp
 import dagger.Binds

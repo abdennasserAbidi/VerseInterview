@@ -68,8 +68,8 @@ android {
 
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
         jvmTarget = "17"
@@ -161,4 +161,8 @@ dependencies {
     implementation("com.google.accompanist:accompanist-pager:0.22.0-rc")
     // The compose calendar library for Android
     implementation("com.kizitonwose.calendar:compose:2.3.0")
+    implementation("org.greenrobot:eventbus:3.1.1")
+    implementation ("io.socket:socket.io-client:2.0.0") {
+        exclude(group = "org.json", module = "json")
+    }
 }

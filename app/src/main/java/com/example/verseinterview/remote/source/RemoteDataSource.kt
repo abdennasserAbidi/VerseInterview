@@ -1,6 +1,6 @@
 package com.example.verseinterview.remote.source
 
-import com.example.myapplication.domain.entities.ExchangeRates
+import com.example.verseinterview.domain.entities.ExchangeRates
 
 /**
  * Methods of Remote Data Source

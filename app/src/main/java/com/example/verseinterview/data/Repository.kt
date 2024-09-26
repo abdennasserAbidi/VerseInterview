@@ -1,6 +1,6 @@
 package com.example.verseinterview.data
 
-import com.example.myapplication.domain.entities.ExchangeRates
+import com.example.verseinterview.domain.entities.ExchangeRates
 import com.example.verseinterview.base.reources.Resource
 import kotlinx.coroutines.flow.Flow
 

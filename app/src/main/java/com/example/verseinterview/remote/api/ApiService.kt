@@ -1,6 +1,6 @@
 package com.example.verseinterview.remote.api
 
-import com.example.myapplication.domain.entities.ExchangeRates
+import com.example.verseinterview.domain.entities.ExchangeRates
 import retrofit2.http.GET
 import retrofit2.http.Query
 

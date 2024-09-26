@@ -1,8 +1,7 @@
 package com.example.verseinterview.remote.source
 
-import com.example.myapplication.domain.entities.ExchangeRates
+import com.example.verseinterview.domain.entities.ExchangeRates
 import com.example.verseinterview.remote.api.ApiService
-import com.example.verseinterview.remote.source.RemoteDataSource
 import javax.inject.Inject
 
 /**

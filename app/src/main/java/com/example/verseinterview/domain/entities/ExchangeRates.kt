@@ -1,4 +1,4 @@
-package com.example.myapplication.domain.entities
+package com.example.verseinterview.domain.entities
 
 import androidx.room.Entity
 import androidx.room.Ignore
